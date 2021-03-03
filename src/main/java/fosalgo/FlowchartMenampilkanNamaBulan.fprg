@@ -11,9 +11,117 @@
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <declare name="n" type="Integer" array="False" size=""/>
-            <input variable="n"/>
+            <output expression="&quot;Masukkan Bulan&quot;" newline="True"/>
+            <declare name="bulan" type="Integer" array="False" size=""/>
+            <input variable="bulan"/>
+            <if expression="bulan =1">
+         <then>
+             <output expression="&quot;Januari&quot;" newline="True"/>
+             <output expression="&quot;Februari&quot;" newline="True"/>
+             <output expression="&quot;Maret&quot;" newline="True"/>
+             <output expression="&quot;April&quot;" newline="True"/>
+         </then>
+         <else/>
+         </if>
+            <if expression="bulan =2">
+         <then>
+             <output expression="&quot;Februari&quot;" newline="True"/>
+             <output expression="&quot;Maret&quot;" newline="True"/>
+             <output expression="&quot;April&quot;" newline="True"/>
+             <output expression="&quot;Mei&quot;" newline="True"/>
+         </then>
+         <else/>
+         </if>
+             <if expression="bulan =3">
+         <then>
+              <output expression="&quot;Maret&quot;" newline="True"/>
+              <output expression="&quot;April&quot;" newline="True"/>
+              <output expression="&quot;Mei&quot;" newline="True"/>
+              <output expression="&quot;juni&quot;" newline="True"/>
+         </then>
+         <else/>
+         </if>
+             <if expression="bulan =4">
+         <then>
+              <output expression="&quot;April&quot;" newline="True"/>
+              <output expression="&quot;Mei&quot;" newline="True"/>
+              <output expression="&quot;Juni&quot;" newline="True"/>
+              <output expression="&quot;Juli&quot;" newline="True"/>
+         </then>
+         <else/>
+         </if>
+             <if expression="bulan =5">
+         <then>
+              <output expression="&quot;Mei&quot;" newline="True"/>
+              <output expression="&quot;Juni&quot;" newline="True"/>
+              <output expression="&quot;Juli&quot;" newline="True"/>
+              <output expression="&quot;Agustus&quot;" newline="True"/>
+         </then>
+         <else/>
+         </if>
+             <if expression="bulan =6">
+         <then>
+              <output expression="&quot;Juni&quot;" newline="True"/>
+              <output expression="&quot;Juli&quot;" newline="True"/>
+              <output expression="&quot;Agustus&quot;" newline="True"/>
+              <output expression="&quot;September&quot;" newline="True"/>
+         </then>
+         <else/>
+         </if>
+             <if expression="bulan =7">
+         <then>
+              <output expression="&quot;Juli&quot;" newline="True"/>
+              <output expression="&quot;Agustus&quot;" newline="True"/>
+              <output expression="&quot;September&quot;" newline="True"/>
+              <output expression="&quot;Oktober&quot;" newline="True"/>
+         </then>
+         <else/>
+         </if>
+             <if expression="bulan =8">
+         <then>
+              <output expression="&quot;Agustus&quot;" newline="True"/>
+              <output expression="&quot;September&quot;" newline="True"/>
+              <output expression="&quot;Oktober&quot;" newline="True"/>
+              <output expression="&quot;November&quot;" newline="True"/>
+         </then>
+         <else/>
+         </if>
+             <if expression="bulan =9">
+         <then>
+              <output expression="&quot;September&quot;" newline="True"/>
+              <output expression="&quot;Oktober&quot;" newline="True"/>
+              <output expression="&quot;November&quot;" newline="True"/>
+              <output expression="&quot;Desember&quot;" newline="True"/>
+         </then>
+         <else/>
+         </if>
+             <if expression="bulan =10">
+         <then>
+              <output expression="&quot;Oktober&quot;" newline="True"/>
+              <output expression="&quot;November&quot;" newline="True"/>
+              <output expression="&quot;Desember&quot;" newline="True"/>
+              <output expression="&quot;Januari&quot;" newline="True"/>
+         </then>
+         <else/>
+         </if>
+             <if expression="bulan =11">
+         <then>
+              <output expression="&quot;November&quot;" newline="True"/>
+              <output expression="&quot;Desember&quot;" newline="True"/>
+              <output expression="&quot;Januari&quot;" newline="True"/>
+              <output expression="&quot;Februari&quot;" newline="True"/>
+          </then>
+          <else/>
+          </if>
+            <if expression="bulan =12">
+          <then>
+              <output expression="&quot;Desember&quot;" newline="True"/>
+              <output expression="&quot;Januari&quot;" newline="True"/>
+              <output expression="&quot;Februari&quot;" newline="True"/>
+              <output expression="&quot;Maret&quot;" newline="True"/>
+          </then>
+          <else/>
+          </if>
         </body>
     </function>
 </flowgorithm>
-
